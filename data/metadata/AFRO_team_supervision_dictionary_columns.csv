@@ -1,0 +1,61 @@
+column,type,description,file
+country,character,Country name (config/forms.csv),afro_team_supervision_repository.csv
+iso3,character,ISO3 country code,afro_team_supervision_repository.csv
+form_id,integer,ONA form id the record comes from,afro_team_supervision_repository.csv
+record_id,character,ONA record id (_id); unique per visit,afro_team_supervision_repository.csv
+visit_date,IDate,Date of the supervision visit (see date_source),afro_team_supervision_repository.csv
+date_source,character,form = date typed in the form was plausible; submission_time = replaced by the ONA submission date,afro_team_supervision_repository.csv
+year,integer,Year of visit_date,afro_team_supervision_repository.csv
+month,character,Month of visit_date (YYYY-MM),afro_team_supervision_repository.csv
+epi_week,character,ISO week of visit_date (YYYY-Www),afro_team_supervision_repository.csv
+state,character,Standard state name (AFRO administrative data),afro_team_supervision_repository.csv
+lga,character,Standard LGA / district name (AFRO administrative data),afro_team_supervision_repository.csv
+ward,character,"Ward as typed in the form (upper case, not standardised)",afro_team_supervision_repository.csv
+geo_match,character,"How state/LGA were matched: override, exact, fuzzy, state_only, unmatched",afro_team_supervision_repository.csv
+state_raw,character,State as typed in the form,afro_team_supervision_repository.csv
+lga_raw,character,LGA as typed in the form,afro_team_supervision_repository.csv
+settlement,character,Settlement as typed in the form,afro_team_supervision_repository.csv
+settlement_type,character,"Settlement type (urban, rural village, ...)",afro_team_supervision_repository.csv
+supervision_type,character,Type of team supervised (readable label),afro_team_supervision_repository.csv
+team_type,character,"Short code: H2H, H2H_TFP, FP, SPECIAL",afro_team_supervision_repository.csv
+sup_level,character,"Level of the supervisor (ward, lga, state, national, zonal)",afro_team_supervision_repository.csv
+campaign_type,character,"Campaign type (ipdstype: SNIPDS, NIPDS, OBR, IBRA, ...)",afro_team_supervision_repository.csv
+antigen,character,Antigen(s) of the campaign,afro_team_supervision_repository.csv
+camp_day,character,"Campaign day (D1..D4, Mop_up_1, ...)",afro_team_supervision_repository.csv
+agency,character,Agency of the supervisor,afro_team_supervision_repository.csv
+supervisor_designation,character,Designation of the supervisor,afro_team_supervision_repository.csv
+supervisor_gender,character,Gender of the supervisor,afro_team_supervision_repository.csv
+team_code,character,Team code typed in the form,afro_team_supervision_repository.csv
+submission_time,POSIXct,ONA submission time (UTC),afro_team_supervision_repository.csv
+lat,numeric,Latitude of the visit (NA when invalid),afro_team_supervision_repository.csv
+lon,numeric,Longitude of the visit (NA when invalid),afro_team_supervision_repository.csv
+gps_valid,logical,TRUE when the form GPS point is within range and not 0/0,afro_team_supervision_repository.csv
+ind_house_marked,integer,"Indicator 'House marked': 1 = favourable answer, 0 = other valid answer, NA = blank/not applicable. Asked only of H2H teams.",afro_team_supervision_repository.csv
+ind_pen_marker,integer,"Indicator 'Pen marker used': 1 = favourable answer, 0 = other valid answer, NA = blank/not applicable. Asked only of H2H teams.",afro_team_supervision_repository.csv
+ind_tally_recorded,integer,"Indicator 'Tally sheet recorded': 1 = favourable answer, 0 = other valid answer, NA = blank/not applicable. Asked only of H2H teams.",afro_team_supervision_repository.csv
+ind_know_vvm,integer,"Indicator 'Team knows VVM': 1 = favourable answer, 0 = other valid answer, NA = blank/not applicable. Asked only of H2H teams.",afro_team_supervision_repository.csv
+ind_in_assigned_area,integer,"Indicator 'Team in its assigned area': 1 = favourable answer, 0 = other valid answer, NA = blank/not applicable. Asked only of H2H teams.",afro_team_supervision_repository.csv
+ind_asks_afp,integer,"Indicator 'Asks about AFP': 1 = favourable answer, 0 = other valid answer, NA = blank/not applicable. Asked only of H2H teams.",afro_team_supervision_repository.csv
+ind_afp_pictorial,integer,"Indicator 'AFP pictorial guide available': 1 = favourable answer, 0 = other valid answer, NA = blank/not applicable. Asked only of H2H teams.",afro_team_supervision_repository.csv
+ind_revisits_missed,integer,"Indicator 'Revisits missed children': 1 = favourable answer, 0 = other valid answer, NA = blank/not applicable. Asked only of H2H teams.",afro_team_supervision_repository.csv
+ind_uses_pluses,integer,"Indicator 'Uses pluses': 1 = favourable answer, 0 = other valid answer, NA = blank/not applicable. Asked only of H2H teams.",afro_team_supervision_repository.csv
+ind_records_nc,integer,"Indicator 'Records non-compliance': 1 = favourable answer, 0 = other valid answer, NA = blank/not applicable. Asked only of H2H teams.",afro_team_supervision_repository.csv
+ind_reminds_ri,integer,"Indicator 'Reminds parents about routine immunisation': 1 = favourable answer, 0 = other valid answer, NA = blank/not applicable. Asked only of H2H teams.",afro_team_supervision_repository.csv
+ind_mobility_ensured,integer,"Indicator 'Team mobility ensured': 1 = favourable answer, 0 = other valid answer, NA = blank/not applicable. Asked only of H2H teams.",afro_team_supervision_repository.csv
+ind_icepack_frozen,integer,"Indicator 'Ice pack frozen': 1 = favourable answer, 0 = other valid answer, NA = blank/not applicable. Asked only of H2H teams.",afro_team_supervision_repository.csv
+ind_vvm_stage_1_2,integer,"Indicator 'Vial VVM at stage I or II': 1 = favourable answer, 0 = other valid answer, NA = blank/not applicable. Asked only of H2H teams.",afro_team_supervision_repository.csv
+ind_evidence_ffm,integer,"Indicator 'Evidence of false finger marking': 1 = evidence found (lower is better), 0 = other valid answer, NA = blank/not applicable. Asked only of H2H teams.",afro_team_supervision_repository.csv
+ind_evidence_overtally,integer,"Indicator 'Evidence of over-tallying': 1 = evidence found (lower is better), 0 = other valid answer, NA = blank/not applicable. Asked only of H2H teams.",afro_team_supervision_repository.csv
+ind_fp_team_dip,integer,"Indicator 'Fixed post: team has the DIP': 1 = favourable answer, 0 = other valid answer, NA = blank/not applicable. Asked only of FP teams.",afro_team_supervision_repository.csv
+ind_fp_social_mob,integer,"Indicator 'Fixed post: social mobilisation done': 1 = favourable answer, 0 = other valid answer, NA = blank/not applicable. Asked only of FP teams.",afro_team_supervision_repository.csv
+ind_fp_tallying,integer,"Indicator 'Fixed post: tallying done': 1 = favourable answer, 0 = other valid answer, NA = blank/not applicable. Asked only of FP teams.",afro_team_supervision_repository.csv
+ind_fp_team_complete,integer,"Indicator 'Fixed post: team complete': 1 = favourable answer, 0 = other valid answer, NA = blank/not applicable. Asked only of FP teams.",afro_team_supervision_repository.csv
+ind_fp_safety_box,integer,"Indicator 'Fixed post: safety box adequate': 1 = favourable answer, 0 = other valid answer, NA = blank/not applicable. Asked only of FP teams.",afro_team_supervision_repository.csv
+ind_fp_needles,integer,"Indicator 'Fixed post: needles/syringes adequate': 1 = favourable answer, 0 = other valid answer, NA = blank/not applicable. Asked only of FP teams.",afro_team_supervision_repository.csv
+ind_fp_vaccine_carrier,integer,"Indicator 'Fixed post: vaccine carrier adequate': 1 = favourable answer, 0 = other valid answer, NA = blank/not applicable. Asked only of FP teams.",afro_team_supervision_repository.csv
+ind_fp_ice_packs,integer,"Indicator 'Fixed post: conditioned ice packs adequate': 1 = favourable answer, 0 = other valid answer, NA = blank/not applicable. Asked only of FP teams.",afro_team_supervision_repository.csv
+children_sampled,integer,"H2H: children sampled by the supervisor (0-500, else NA)",afro_team_supervision_repository.csv
+not_fully_marked_sampled,integer,"H2H: sampled children not fully marked (0-500 and <= children_sampled, else NA)",afro_team_supervision_repository.csv
+afp_cases_reported,integer,"H2H: AFP cases reported by the team (0-50, else NA)",afro_team_supervision_repository.csv
+flag_number_outlier,logical,TRUE when one of the three numbers above was outside its plausible range and set to NA,afro_team_supervision_repository.csv
+h2h_records,integer,"",afro_team_supervision_repository.csv
