@@ -846,10 +846,10 @@ Nigeria,NGA,GOMBE,2026-08,revisits_missed,Revisits missed children,H2H,FALSE,675
 Nigeria,NGA,GOMBE,2026-08,tally_recorded,Tally sheet recorded,H2H,FALSE,807,805,99.8
 Nigeria,NGA,GOMBE,2026-08,uses_pluses,Uses pluses,H2H,FALSE,573,21,3.7
 Nigeria,NGA,GOMBE,2026-08,vvm_stage_1_2,Vial VVM at stage I or II,H2H,FALSE,807,806,99.9
-Nigeria,NGA,GOMBE,2026-11,afp_pictorial,AFP pictorial guide available,H2H,FALSE,751,701,93.3
-Nigeria,NGA,GOMBE,2026-11,asks_afp,Asks about AFP,H2H,FALSE,751,713,94.9
-Nigeria,NGA,GOMBE,2026-11,evidence_ffm,Evidence of false finger marking,H2H,TRUE,751,11,1.5
-Nigeria,NGA,GOMBE,2026-11,evidence_overtally,Evidence of over-tallying,H2H,TRUE,751,15,2
+Nigeria,NGA,GOMBE,2026-11,afp_pictorial,AFP pictorial guide available,H2H,FALSE,752,702,93.4
+Nigeria,NGA,GOMBE,2026-11,asks_afp,Asks about AFP,H2H,FALSE,752,714,94.9
+Nigeria,NGA,GOMBE,2026-11,evidence_ffm,Evidence of false finger marking,H2H,TRUE,752,11,1.5
+Nigeria,NGA,GOMBE,2026-11,evidence_overtally,Evidence of over-tallying,H2H,TRUE,752,15,2
 Nigeria,NGA,GOMBE,2026-11,fp_ice_packs,Fixed post: conditioned ice packs adequate,FP,FALSE,21,21,100
 Nigeria,NGA,GOMBE,2026-11,fp_needles,Fixed post: needles/syringes adequate,FP,FALSE,21,21,100
 Nigeria,NGA,GOMBE,2026-11,fp_safety_box,Fixed post: safety box adequate,FP,FALSE,21,21,100
@@ -858,18 +858,18 @@ Nigeria,NGA,GOMBE,2026-11,fp_tallying,Fixed post: tallying done,FP,FALSE,21,21,1
 Nigeria,NGA,GOMBE,2026-11,fp_team_complete,Fixed post: team complete,FP,FALSE,21,21,100
 Nigeria,NGA,GOMBE,2026-11,fp_team_dip,Fixed post: team has the DIP,FP,FALSE,21,21,100
 Nigeria,NGA,GOMBE,2026-11,fp_vaccine_carrier,Fixed post: vaccine carrier adequate,FP,FALSE,21,21,100
-Nigeria,NGA,GOMBE,2026-11,house_marked,House marked,H2H,FALSE,751,751,100
-Nigeria,NGA,GOMBE,2026-11,icepack_frozen,Ice pack frozen,H2H,FALSE,751,617,82.2
-Nigeria,NGA,GOMBE,2026-11,in_assigned_area,Team in its assigned area,H2H,FALSE,751,750,99.9
-Nigeria,NGA,GOMBE,2026-11,know_vvm,Team knows VVM,H2H,FALSE,751,750,99.9
-Nigeria,NGA,GOMBE,2026-11,mobility_ensured,Team mobility ensured,H2H,FALSE,751,745,99.2
-Nigeria,NGA,GOMBE,2026-11,pen_marker,Pen marker used,H2H,FALSE,751,749,99.7
-Nigeria,NGA,GOMBE,2026-11,records_nc,Records non-compliance,H2H,FALSE,704,612,86.9
-Nigeria,NGA,GOMBE,2026-11,reminds_ri,Reminds parents about routine immunisation,H2H,FALSE,751,740,98.5
-Nigeria,NGA,GOMBE,2026-11,revisits_missed,Revisits missed children,H2H,FALSE,692,414,59.8
-Nigeria,NGA,GOMBE,2026-11,tally_recorded,Tally sheet recorded,H2H,FALSE,751,750,99.9
+Nigeria,NGA,GOMBE,2026-11,house_marked,House marked,H2H,FALSE,752,752,100
+Nigeria,NGA,GOMBE,2026-11,icepack_frozen,Ice pack frozen,H2H,FALSE,752,617,82
+Nigeria,NGA,GOMBE,2026-11,in_assigned_area,Team in its assigned area,H2H,FALSE,752,751,99.9
+Nigeria,NGA,GOMBE,2026-11,know_vvm,Team knows VVM,H2H,FALSE,752,751,99.9
+Nigeria,NGA,GOMBE,2026-11,mobility_ensured,Team mobility ensured,H2H,FALSE,752,746,99.2
+Nigeria,NGA,GOMBE,2026-11,pen_marker,Pen marker used,H2H,FALSE,752,750,99.7
+Nigeria,NGA,GOMBE,2026-11,records_nc,Records non-compliance,H2H,FALSE,705,613,87
+Nigeria,NGA,GOMBE,2026-11,reminds_ri,Reminds parents about routine immunisation,H2H,FALSE,752,741,98.5
+Nigeria,NGA,GOMBE,2026-11,revisits_missed,Revisits missed children,H2H,FALSE,693,414,59.7
+Nigeria,NGA,GOMBE,2026-11,tally_recorded,Tally sheet recorded,H2H,FALSE,752,751,99.9
 Nigeria,NGA,GOMBE,2026-11,uses_pluses,Uses pluses,H2H,FALSE,355,40,11.3
-Nigeria,NGA,GOMBE,2026-11,vvm_stage_1_2,Vial VVM at stage I or II,H2H,FALSE,751,751,100
+Nigeria,NGA,GOMBE,2026-11,vvm_stage_1_2,Vial VVM at stage I or II,H2H,FALSE,752,752,100
 Nigeria,NGA,JIGAWA,2026-03,afp_pictorial,AFP pictorial guide available,H2H,FALSE,7244,6334,87.4
 Nigeria,NGA,JIGAWA,2026-03,asks_afp,Asks about AFP,H2H,FALSE,7244,6668,92
 Nigeria,NGA,JIGAWA,2026-03,evidence_ffm,Evidence of false finger marking,H2H,TRUE,7244,194,2.7
@@ -2532,10 +2532,10 @@ Nigeria,NGA,NIGER,2026-10,revisits_missed,Revisits missed children,H2H,FALSE,62,
 Nigeria,NGA,NIGER,2026-10,tally_recorded,Tally sheet recorded,H2H,FALSE,82,82,100
 Nigeria,NGA,NIGER,2026-10,uses_pluses,Uses pluses,H2H,FALSE,53,0,0
 Nigeria,NGA,NIGER,2026-10,vvm_stage_1_2,Vial VVM at stage I or II,H2H,FALSE,82,82,100
-Nigeria,NGA,NIGER,2026-11,afp_pictorial,AFP pictorial guide available,H2H,FALSE,7485,4889,65.3
-Nigeria,NGA,NIGER,2026-11,asks_afp,Asks about AFP,H2H,FALSE,7485,6404,85.6
-Nigeria,NGA,NIGER,2026-11,evidence_ffm,Evidence of false finger marking,H2H,TRUE,7485,260,3.5
-Nigeria,NGA,NIGER,2026-11,evidence_overtally,Evidence of over-tallying,H2H,TRUE,7485,114,1.5
+Nigeria,NGA,NIGER,2026-11,afp_pictorial,AFP pictorial guide available,H2H,FALSE,7490,4894,65.3
+Nigeria,NGA,NIGER,2026-11,asks_afp,Asks about AFP,H2H,FALSE,7490,6409,85.6
+Nigeria,NGA,NIGER,2026-11,evidence_ffm,Evidence of false finger marking,H2H,TRUE,7490,261,3.5
+Nigeria,NGA,NIGER,2026-11,evidence_overtally,Evidence of over-tallying,H2H,TRUE,7490,114,1.5
 Nigeria,NGA,NIGER,2026-11,fp_ice_packs,Fixed post: conditioned ice packs adequate,FP,FALSE,204,200,98
 Nigeria,NGA,NIGER,2026-11,fp_needles,Fixed post: needles/syringes adequate,FP,FALSE,204,200,98
 Nigeria,NGA,NIGER,2026-11,fp_safety_box,Fixed post: safety box adequate,FP,FALSE,204,204,100
@@ -2544,18 +2544,18 @@ Nigeria,NGA,NIGER,2026-11,fp_tallying,Fixed post: tallying done,FP,FALSE,204,199
 Nigeria,NGA,NIGER,2026-11,fp_team_complete,Fixed post: team complete,FP,FALSE,204,201,98.5
 Nigeria,NGA,NIGER,2026-11,fp_team_dip,Fixed post: team has the DIP,FP,FALSE,204,197,96.6
 Nigeria,NGA,NIGER,2026-11,fp_vaccine_carrier,Fixed post: vaccine carrier adequate,FP,FALSE,204,202,99
-Nigeria,NGA,NIGER,2026-11,house_marked,House marked,H2H,FALSE,7485,7427,99.2
-Nigeria,NGA,NIGER,2026-11,icepack_frozen,Ice pack frozen,H2H,FALSE,7485,4009,53.6
-Nigeria,NGA,NIGER,2026-11,in_assigned_area,Team in its assigned area,H2H,FALSE,7485,7466,99.7
-Nigeria,NGA,NIGER,2026-11,know_vvm,Team knows VVM,H2H,FALSE,7485,7450,99.5
-Nigeria,NGA,NIGER,2026-11,mobility_ensured,Team mobility ensured,H2H,FALSE,7428,2481,33.4
-Nigeria,NGA,NIGER,2026-11,pen_marker,Pen marker used,H2H,FALSE,7485,7447,99.5
-Nigeria,NGA,NIGER,2026-11,records_nc,Records non-compliance,H2H,FALSE,6359,3854,60.6
-Nigeria,NGA,NIGER,2026-11,reminds_ri,Reminds parents about routine immunisation,H2H,FALSE,7485,7277,97.2
-Nigeria,NGA,NIGER,2026-11,revisits_missed,Revisits missed children,H2H,FALSE,6156,1219,19.8
-Nigeria,NGA,NIGER,2026-11,tally_recorded,Tally sheet recorded,H2H,FALSE,7485,7454,99.6
+Nigeria,NGA,NIGER,2026-11,house_marked,House marked,H2H,FALSE,7490,7432,99.2
+Nigeria,NGA,NIGER,2026-11,icepack_frozen,Ice pack frozen,H2H,FALSE,7490,4011,53.6
+Nigeria,NGA,NIGER,2026-11,in_assigned_area,Team in its assigned area,H2H,FALSE,7490,7471,99.7
+Nigeria,NGA,NIGER,2026-11,know_vvm,Team knows VVM,H2H,FALSE,7490,7455,99.5
+Nigeria,NGA,NIGER,2026-11,mobility_ensured,Team mobility ensured,H2H,FALSE,7433,2483,33.4
+Nigeria,NGA,NIGER,2026-11,pen_marker,Pen marker used,H2H,FALSE,7490,7452,99.5
+Nigeria,NGA,NIGER,2026-11,records_nc,Records non-compliance,H2H,FALSE,6361,3856,60.6
+Nigeria,NGA,NIGER,2026-11,reminds_ri,Reminds parents about routine immunisation,H2H,FALSE,7490,7282,97.2
+Nigeria,NGA,NIGER,2026-11,revisits_missed,Revisits missed children,H2H,FALSE,6157,1219,19.8
+Nigeria,NGA,NIGER,2026-11,tally_recorded,Tally sheet recorded,H2H,FALSE,7490,7459,99.6
 Nigeria,NGA,NIGER,2026-11,uses_pluses,Uses pluses,H2H,FALSE,5440,329,6
-Nigeria,NGA,NIGER,2026-11,vvm_stage_1_2,Vial VVM at stage I or II,H2H,FALSE,7485,7480,99.9
+Nigeria,NGA,NIGER,2026-11,vvm_stage_1_2,Vial VVM at stage I or II,H2H,FALSE,7490,7485,99.9
 Nigeria,NGA,OGUN,2026-09,afp_pictorial,AFP pictorial guide available,H2H,FALSE,18,11,61.1
 Nigeria,NGA,OGUN,2026-09,asks_afp,Asks about AFP,H2H,FALSE,18,13,72.2
 Nigeria,NGA,OGUN,2026-09,evidence_ffm,Evidence of false finger marking,H2H,TRUE,18,1,5.6
