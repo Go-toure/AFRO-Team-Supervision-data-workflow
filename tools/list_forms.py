@@ -28,6 +28,7 @@ ap = argparse.ArgumentParser()
 ap.add_argument("--token-env", default="ONA_API_TOKEN_NIE")
 ap.add_argument("--search", default="form a,form_a,formulaire a,preparedness,social mob,social_mob,mobilis,mobiliz,acsm")
 ap.add_argument("--base", default="https://api.whonghub.org/api/v1")
+ap.add_argument("--page-size", type=int, default=100, help="forms per request (smaller pages avoid the HTTP 502 of the server)")
 a = ap.parse_args()
 
 load_secrets_env(HERE)
@@ -39,11 +40,11 @@ H = {"Authorization": f"Token {tok}"}
 import time
 
 rows, seen, page, failures = [], set(), 1, 0
-while page <= 100 and failures < 3:
+while page <= 400 and failures < 3:
     data = None
     for attempt in range(1, 6):                     # the server sometimes answers 502: retry the same page
         try:
-            r = requests.get(f"{a.base}/forms.json", headers=H, params={"page": page, "page_size": 500}, timeout=180)
+            r = requests.get(f"{a.base}/forms.json", headers=H, params={"page": page, "page_size": a.page_size}, timeout=180)
         except requests.RequestException as e:
             print(f"  page {page}: {type(e).__name__}, retry {attempt}/5")
         else:
@@ -58,12 +59,15 @@ while page <= 100 and failures < 3:
         continue
     failures = 0
     new = [d for d in data if d.get("formid") not in seen]
+    if not data:
+        break                                       # an empty page: the end of the list
     if not new:
-        break
+        page += 1
+        continue
     for d in new:
         seen.add(d.get("formid"))
         rows.append({k: d.get(k) for k in ("formid", "title", "id_string", "num_of_submissions", "project", "last_submission_time")})
-    print(f"  page {page}: {len(new)} forms (total {len(rows)})", flush=True)
+    print(f"  page {page}: {len(new)} forms (total {len(rows)})", flush=True) if page % 5 == 1 else None
     page += 1
 df = pd.DataFrame(rows)
 out = HERE / "data" / f"accessible_forms_{a.token_env}.csv"
